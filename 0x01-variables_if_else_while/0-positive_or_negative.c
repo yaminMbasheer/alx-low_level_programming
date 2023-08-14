@@ -9,7 +9,7 @@ int main(void)
 	int j;
 	srand(time(0));
 	j=rand()-RAND_MAX*.5;
-	if (J>0)
+	if (j>0)
 	{
 		printf("%d positive  \n",j);
 	}
