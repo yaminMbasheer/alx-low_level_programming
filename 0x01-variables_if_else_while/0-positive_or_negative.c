@@ -8,7 +8,7 @@ int main(void)
 {
 	int j;
 	srand(time(0));
-	n=rand()-RAND_MAX*.5;
+	j=rand()-RAND_MAX*.5;
 	IF (J>0)
 	{
 		printf("%d positive  \n",j);
