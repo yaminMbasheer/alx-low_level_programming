@@ -9,7 +9,7 @@ int main(void)
 	int j;
 	srand(time(0));
 	j=rand()-RAND_MAX*.5;
-	IF (J>0)
+	if (J>0)
 	{
 		printf("%d positive  \n",j);
 	}
@@ -22,5 +22,5 @@ int main(void)
                 printf("%d nagetive  \n",j);
         }
 
-	retrun(0)
+	retrun(0);
 }
