@@ -17,7 +17,7 @@ int main(void)
  {
                 printf("%d  zero \n",j);
         }
-	else (j<0)
+	else 
  {
                 printf("%d nagetive  \n",j);
         }
