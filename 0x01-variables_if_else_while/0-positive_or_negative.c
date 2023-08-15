@@ -22,5 +22,5 @@ int main(void)
                 printf("%d nagetive  \n",j);
         }
 
-	retrun(0);
+	return(0);
 }
