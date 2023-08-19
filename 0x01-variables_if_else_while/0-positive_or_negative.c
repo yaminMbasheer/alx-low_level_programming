@@ -1,26 +1,24 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**
- * print nuber if is positve or negative
- */
+/* more headers goes there */
+/* betty style doc for function main goes there */
 int main(void)
 {
-	int j;
-	srand(time(0));
-	j=rand()-RAND_MAX*.5;
-	if (j>0)
-	{
-		printf("%d positive  \n",j);
-	}
-	else if (j==0)
- {
-                printf("%d  zero \n",j);
-        }
-	else 
- {
-                printf("%d nagetive  \n",j);
-        }
-
-	return(0);
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+/* your code goes there */
+ if (j > 0)
+{
+printf(" %d positive  \n", j);
+}
+else if (j == 0)
+{
+printf(" %d  zero \n", j);
+}
+else
+{
+printf("%d nagetive  \n", j);
+}
+return (0);
 }
