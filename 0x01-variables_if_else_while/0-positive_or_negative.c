@@ -8,17 +8,17 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
- if (j > 0)
+ if (n > 0)
 {
-printf(" %d positive  \n", j);
+printf(" %d positive  \n", n);
 }
-else if (j == 0)
+else if (n == 0)
 {
-printf(" %d  zero \n", j);
+printf(" %d  zero \n", n);
 }
 else
 {
-printf("%d nagetive  \n", j);
+printf("%d nagetive  \n", n);
 }
 return (0);
 }
