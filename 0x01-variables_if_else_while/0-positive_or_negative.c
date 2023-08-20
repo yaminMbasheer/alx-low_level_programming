@@ -14,15 +14,15 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0)
 {
-printf(" %d positive  \n", n);
+printf("%d positive\n", n);
 }
 else if (n == 0)
 {
-printf(" %d  zero \n", n);
+printf("%d zero\n", n);
 }
 else
 {
-printf("%d nagetive  \n", n);
+printf("%d nagetive\n", n);
 }
 return (0);
 }
